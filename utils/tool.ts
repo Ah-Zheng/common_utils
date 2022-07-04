@@ -18,4 +18,6 @@ function toAsync<T>(promiseObject: Promise<T>): Promise<{
     });
 }
 
-export default toAsync;
+export {
+    toAsync
+};
