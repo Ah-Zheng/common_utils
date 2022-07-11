@@ -1,12 +1,22 @@
 {
-  "name": "common_utils",
+  "name": "common-utils",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "常用工具",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc --outDir ./dist"
+  },
+  "files": [
+    "/dist"
+  ],
+  "engines": {
+    "node": ">= 16"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
 }

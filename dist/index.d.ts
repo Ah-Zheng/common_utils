@@ -1,5 +1,2 @@
 import { toAsync } from "./utils/tool";
-
-export {
-    toAsync
-};
+export { toAsync };
