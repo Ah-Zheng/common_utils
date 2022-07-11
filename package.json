@@ -2,13 +2,13 @@
   "name": "common-utils",
   "version": "1.0.0",
   "description": "常用工具",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "npx tsc -p tsconfig.json"
   },
   "files": [
-    "/dist"
+    "/lib"
   ],
   "engines": {
     "node": ">= 16"
