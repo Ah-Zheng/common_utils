@@ -1,22 +1,18 @@
 {
-  "name": "common-utils",
-  "version": "1.0.0",
-  "description": "常用工具",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "build": "npx tsc -p tsconfig.json"
-  },
-  "files": [
-    "/lib"
-  ],
-  "engines": {
-    "node": ">= 16"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "typescript": "^4.7.4"
-  }
+    "name": "common-util",
+    "version": "1.0.0",
+    "description": "常用工具",
+    "private": true,
+    "scripts": {
+        "build": "npx tsc -p tsconfig.json"
+    },
+    "engines": {
+        "node": ">= 16"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "typescript": "^4.7.4"
+    }
 }

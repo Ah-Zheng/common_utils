@@ -1,14 +1,24 @@
-lockfileVersion: 5.4
+lockfileVersion: '6.0'
 
-specifiers:
-  typescript: ^4.7.4
+importers:
 
-dependencies:
-  typescript: 4.7.4
+  .:
+    dependencies:
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
+
+  packages/common-util:
+    devDependencies:
+      '@common-util/utils':
+        specifier: workspace:*
+        version: link:../utils
+
+  packages/utils: {}
 
 packages:
 
-  /typescript/4.7.4:
+  /typescript@4.7.4:
     resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
