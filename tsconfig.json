@@ -3,12 +3,17 @@
         "target": "ES6",
         "module": "CommonJS",
         "lib": ["ESNext"],
+        "allowJs": true,
+        "checkJs": true,
         "strict": true,
         "outDir": "./lib",
         "declaration": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true
     },
-    "include": ["./packages/**/*.ts"],
+    "include": [
+        "./packages/**/*.ts",
+        "./packages/eslint-prettier-vue-typescript/**/*.js"
+    ],
     "exclude": ["node_modules"]
 }

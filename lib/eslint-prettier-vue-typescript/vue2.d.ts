@@ -1,4 +1,2 @@
-declare const _default: {
-    extends: string[];
-};
-export default _default;
+declare const _extends: string[];
+export { _extends as extends };
