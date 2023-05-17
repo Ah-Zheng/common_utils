@@ -11,9 +11,6 @@
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true
     },
-    "include": [
-        "./packages/**/*.ts",
-        "./packages/eslint-prettier-vue-typescript/**/*.js"
-    ],
+    "include": ["./packages/**/*.ts", "./packages/**/*.js"],
     "exclude": ["node_modules"]
 }
