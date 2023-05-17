@@ -1,0 +1,32 @@
+{
+    "name": "eslint-config-vue-typescript",
+    "version": "1.0.19",
+    "description": "Vue加上typescript的eslint設定",
+    "main": "index.js",
+    "scripts": {
+        "test": "eslint -c vue2.js test.js; eslint -c vue3.js test.js"
+    },
+    "pre-commit": [
+        "test"
+    ],
+    "files": [
+        "index.js"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "@vue/eslint-config-typescript": "^7.0.0",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-vue": "^7.17.0"
+    },
+    "peerDependencies": {
+        "eslint": ">=7.0.0",
+        "typescript": ">=4.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.21.0",
+        "pre-commit": "^1.2.2",
+        "typescript": "^4.2.2"
+    }
+}
